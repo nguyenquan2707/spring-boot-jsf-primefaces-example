@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:p="http://primefaces.org/ui">
+
+<h:head>
+</h:head>
+
+<h:body style="margin-left:50px">
+    <h:form>
+        <h2>spring boot - primefaces sample (created by karbit.org)</h2>
+        <p:inputText id="textBox" value="#{backBean.value}"/>
+        <p:commandButton actionListener="#{backBean.buttonAction}" value="clickme" process="@this textBox"
+                         update="textBox"/>
+    </h:form>
+</h:body>
+</html>
