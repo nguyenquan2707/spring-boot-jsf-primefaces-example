@@ -3,7 +3,7 @@ As java developers, sometimes we need to create web applications. Because our sk
 So I decided to build a raw project based on Spring-boot and Primefaces to help every java developer who needs to build a web application but does not know well HTML, CSS, javascript language, and other client-side frameworks such as React or Angular.
 You should know how to work with XML, and if needed to make a pretty user interface, you should learn only CSS.
 
-to run, write this command on root of project:
+To execute the project, write this command in the terminal at the root of the project:
 ```
 java -jar target/spring-boot-primefaces-sample-1.0.0-SNAPSHOT.jar
 ```
