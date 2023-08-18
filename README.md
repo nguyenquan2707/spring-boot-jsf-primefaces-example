@@ -7,6 +7,8 @@ To execute the project, write this command in the terminal at the root of the pr
 ```
 java -jar target/spring-boot-primefaces-sample-1.0.0-SNAPSHOT.jar
 ```
+
+//http://localhost:8080/index.xhtml
 after see message that show container started successfuly, you can browes to ```http://localhost:8080/index.xhtml```.
 
 you should see this page:
