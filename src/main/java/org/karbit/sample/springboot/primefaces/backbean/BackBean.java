@@ -10,7 +10,7 @@ import org.springframework.stereotype.Component;
 @ViewScoped
 public class BackBean {
 
-	private String value;
+	private String value = "a";
 
 	@PostConstruct
 	public void doAfterConstruction() {
